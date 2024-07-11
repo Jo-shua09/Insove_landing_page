@@ -1,9 +1,9 @@
 {
 	"name": "insove",
 	"version": "1.0.0",
-	"main": "index.js",
+	"main": "tailwind.config.js",
 	"scripts": {
-		"build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+		"tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
 	},
 	"license": "ISC",
 	"devDependencies": {
