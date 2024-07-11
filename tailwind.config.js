@@ -14,6 +14,11 @@ module.exports = {
 			xl: "1330px",
 		},
 		extend: {
+			flex: {
+				custom1: "1 1 45rem",
+				custom2: "1 1 30rem",
+				custom1: "1 1 25rem",
+			},
 			colors: {
 				primary: "242a2b",
 				secondary: "#808080",
